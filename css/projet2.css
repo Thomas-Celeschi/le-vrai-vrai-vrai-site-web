@@ -1,0 +1,186 @@
+header {
+	margin-bottom: 1%;
+	padding: 1%;
+	text-align: center;
+}
+
+.logo {
+	position: absolute;
+	top: 1%;
+	right: 1%;
+}
+
+/*menu de navigation*/
+nav {
+	display: flex;	  
+	justify-content: center;
+	margin-bottom: 3%;
+}
+
+.nav:after, .nav:before {
+	margin-top:0.5em;
+	content: "";
+	float:left;
+	border:1.5em solid #fff;
+}
+  
+.nav:after {
+	border-right-color:transparent;
+}
+  
+.nav:before {
+	border-left-color:transparent;
+}
+
+.nav a:link, .nav a:visited { 
+	color:#000;
+	text-decoration:none;
+	float:left;
+	height:3.5em;
+	overflow:hidden;
+}
+
+.nav span {
+	background:#fff;
+	display:inline-block;
+	line-height:3em;
+	padding:0 1em;
+	margin-top:0.5em;
+	position:relative;
+	transition: background-color 0.2s, margin-top 0.2s;
+}
+  
+.nav a:hover span {
+	background:#FFD204;
+	margin-top:0;
+}
+  
+.nav span:before {
+	content: "";
+	position:absolute;
+	top:3em;
+	left:0;
+	border-right:0.5em solid #9B8651;
+	border-bottom:0.5em solid #fff;
+}
+  
+.nav span:after {
+	content: "";
+	position:absolute;
+	top:3em;
+	right:0;
+	border-left:0.5em solid #9B8651;
+	border-bottom:0.5em solid #fff;
+ }
+
+
+body {
+	margin: 0;
+	background: url("../image/ashe.png") center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+	color: white;
+}
+
+
+article {
+	border: thick solid black;
+	border-radius: 30px;
+	padding: 7%;
+	background: url("../image/couleur.jpg") center fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: 4%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.art1 {
+	width: 30%;
+}
+
+.section {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.asi1 {
+	text-align: center;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-bottom: 3%;
+
+}
+
+.asi2 {
+	border: thick solid black;
+	border-radius: 30px;
+	background: url("../image/couleur.jpg") center fixed;
+	background-repeat: no-repeat;
+	background-size: cover;	
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-bottom: 3%;
+	margin-top: 3%;
+}
+
+.asi3 {
+	border: thick solid black;
+	border-radius: 30px;
+	background: url("../image/couleur.jpg") center fixed;
+	background-repeat: no-repeat;
+	background-size: cover;	
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-bottom: 3%;
+	margin-top: 3%;
+}
+
+h2 {
+	text-align: center;
+ }
+
+/* image */
+.fate {
+	border: thick solid black;
+	width: 250px;
+	height: 162px;
+}
+
+
+footer {
+	position: fixed;
+	bottom: 0%;
+	left: 0%;
+}
+
+
+/* fleche pour remonter */
+
+.fleche {
+	width: 75px;
+	height: 75px;
+}
+
+.remonter{
+	position: fixed;
+	bottom: 0%;
+	right: 0%;
+	opacity: 0.15;
+}
+
+  .remonter:hover{
+	opacity: 0.5;
+}
+
+* {
+	scroll-behavior: smooth;
+ }
+
+ /* police du texte*/
+ p {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+ }

@@ -1,0 +1,213 @@
+header {
+	margin-bottom: 1%;
+	padding: 1%;
+	text-align: center;
+}
+
+.logo {
+	position: absolute;
+	top: 1%;
+	right: 1%;
+}
+
+/*menu de navigation*/
+nav {
+	display: flex;	  
+	justify-content: center;
+	margin-bottom: 3%;
+}
+
+.nav:after, .nav:before {
+	margin-top:0.5em;
+	content: "";
+	float:left;
+	border:1.5em solid #fff;
+}
+  
+.nav:after {
+	border-right-color:transparent;
+}
+  
+.nav:before {
+	border-left-color:transparent;
+}
+
+.nav a:link, .nav a:visited { 
+	color:#000;
+	text-decoration:none;
+	float:left;
+	height:3.5em;
+	overflow:hidden;
+}
+
+.nav span {
+	background:#fff;
+	display:inline-block;
+	line-height:3em;
+	padding:0 1em;
+	margin-top:0.5em;
+	position:relative;
+	transition: background-color 0.2s, margin-top 0.2s;
+}
+  
+.nav a:hover span {
+	background:#FFD204;
+	margin-top:0;
+}
+  
+.nav span:before {
+	content: "";
+	position:absolute;
+	top:3em;
+	left:0;
+	border-right:0.5em solid #9B8651;
+	border-bottom:0.5em solid #fff;
+}
+  
+.nav span:after {
+	content: "";
+	position:absolute;
+	top:3em;
+	right:0;
+	border-left:0.5em solid #9B8651;
+	border-bottom:0.5em solid #fff;
+ }
+
+ body {
+	margin: 0;
+	background: url("../image/Lux.jpg") center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+	color: white;
+ }
+
+.stelerio {
+	margin-bottom: 4%;
+}
+
+.blabla {
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top: 2%;
+	margin-bottom: 5%;
+}
+
+.reseaux {
+	display: flex;
+	justify-content: space-around;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+.stelerio {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 6%;
+	margin-right: 10%;
+	margin-left: 10%;
+ }
+
+ .image {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+ }
+
+ /* taille des logo pour aller sur les réseaux de Stelerio */
+.stelstore {
+	width: 150px;
+	height: 150px;
+}
+
+.steltwi {
+	width: 150px;
+	height: 150px;
+}
+
+.stelforum{
+	width: 150px;
+	height: 150px;
+}
+
+/* position et taille ds images à télécharger */
+.Lux {
+	display: flex;
+	justify-content: center;
+	margin-top: 4%;
+}
+
+.Luxsize {
+	width: 386px; 
+	height: 216px;
+	border: thick solid black;
+}
+
+.Ashe {
+	display: flex;
+	justify-content: center;
+	margin-top: 4%;
+}
+
+.Ashesize {
+	width: 386px; 
+	height: 216px;
+	border: thick solid black;
+}
+
+.Fate {
+	display: flex;
+	justify-content: center;
+	margin-top: 4%;
+}
+
+.Fatesize {
+	width: 386px; 
+	height: 216px;
+	border: thick solid black;
+}
+
+ /* boutons pour changer de style CSS */
+
+footer {
+	position: fixed;
+	bottom: 0%;
+	left: 0%;
+}
+
+/* flèche pour remonter */
+.fleche {
+	width: 75px;
+	height: 75px;
+}
+
+.remonter{
+	position: fixed;
+	bottom: 0%;
+	right: 0%;
+	opacity: 0.15;
+}
+
+  .remonter:hover{
+	opacity: 0.5;
+}
+
+* {
+	scroll-behavior: smooth;
+ }
+
+/* police du texte */
+ p {
+	font-family: "Lucida Console", "Courier New", monospace;
+	text-align: center;
+	text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+ }
+
+.blabla {
+	text-align: center;
+	text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+ }
+
+ /* couleur des liens*/
+ a {	
+	color: orange;
+ }
